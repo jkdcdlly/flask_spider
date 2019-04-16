@@ -19,7 +19,7 @@
     2.cd flask_spider
     3.pyvenv  myvenv #虚拟环境
     4.source venv/bin/activate #激活虚拟环境
-    5.pip install -r  requirement.txt # 安装依赖
+    5.pip install -r  requirements.txt # 安装依赖
 
 以上，应该安装好了python依赖包。
 接下来是初始化数据：
@@ -27,7 +27,7 @@
     1.首先你应该创建了一个blog数据库（utf-8格式）,然后修改config.py里面的user、passwd、db
     2.初始化数据库：python manage.py db init
     3.生成数据库语句：python manage.py db migrate
-    4.创建数据库：python manage.py upgrade
+    4.创建数据库：python manage.py db upgrade
 
 运行：`./start.sh`
 
